@@ -33,6 +33,7 @@ h1{
   font-size: 1.5em;
   color: #c6f1d6;
   font-family:'Asap', serif;
+  font-weight: normal;
 }
 
 h2{
@@ -49,7 +50,7 @@ p, .footer-link, .btn{
   font-family: 'Poppins', sans-serif;
 }
 
-.middle-container, .skills, .contact-me, .bottom-container{
+.middle-container, .bottom-container{
   width: 85%;
   margin: auto;
 }
@@ -59,10 +60,6 @@ a{
 }
 
 a:visited, a:link{
-  color: black;
-}
-
-a:hover{
   color: #39bdc8;
 }
 
@@ -80,11 +77,21 @@ hr{
   height: 17%;
 }
 
-.coding-image, .basketball-image{
+.coding-image{
+  float: left;
+  margin-right: 5%;
   width: 25%;
-  height: 25%;
 }
 
-.general-purpose-languages{
-  display: block;
+.basketball-image{
+  float: right;
+  margin-left: 5%;
+  width: 25%;
+}
+
+.skill-row{
+  width: 70%;
+  margin: 4% auto 12% auto;
+  text-align: left;
+  line-height: 2;
 }
