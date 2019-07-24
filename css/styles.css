@@ -105,6 +105,7 @@ hr{
 .bottom-container a{
   display: inline-block;
   margin: 20px auto 10px auto;
+  font-size: 1rem;
 }
 
 .middle-container a{
@@ -113,6 +114,7 @@ hr{
   border-radius: 25px;
   color: white;
   display: inline-block;
+  font-size: 1rem;
   margin-top: 2%;
   padding: .6em;
 }
