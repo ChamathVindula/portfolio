@@ -50,17 +50,14 @@ p, .footer-link, .btn{
   font-family: 'Poppins', sans-serif;
 }
 
-.middle-container, .bottom-container{
+.middle-container{
   width: 85%;
-  margin: auto;
+  margin: auto auto 4% auto;
 }
 
 a{
-  text-decoration: none;
-}
 
-a:visited, a:link{
-  color: #39bdc8;
+  text-decoration: none;
 }
 
 hr{
@@ -94,4 +91,28 @@ hr{
   margin: 4% auto 12% auto;
   text-align: left;
   line-height: 2;
+}
+.bottom-container{
+  background-color: #39bdc8;
+  color: white;
+  padding: 15px 0 15px 0;
+}
+
+.bottom-container a:visited, .bottom-container a:link{
+  color:  #c6f1d6;
+}
+
+.bottom-container a{
+  display: inline-block;
+  margin: 20px auto 10px auto;
+}
+
+.middle-container a{
+  background-color: #39bdc8;
+  border: 1px solid #39bdc8;
+  border-radius: 25px;
+  color: white;
+  display: inline-block;
+  margin-top: 2%;
+  padding: .6em;
 }
