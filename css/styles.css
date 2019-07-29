@@ -95,6 +95,7 @@ hr{
 .bottom-container{
   background-color: #39bdc8;
   color: white;
+  font-size: 0.9em;
   padding: 15px 0 15px 0;
 }
 
@@ -105,7 +106,7 @@ hr{
 .bottom-container a{
   display: inline-block;
   margin: 20px auto 10px auto;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .middle-container a{
